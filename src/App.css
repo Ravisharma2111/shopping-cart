@@ -1,0 +1,60 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header { */
+  /* background-color: #282c34; */
+  /* min-height: 890vh; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+/* } */
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* div {
+  background-color: pink;
+}
+
+@media screen and (min-width: 480px) {
+  div {
+    background-color: lightgreen;
+  }
+} */
+  /* .mainBox {
+    overflow: auto
+  }
+  .leftSide {
+    float: none;
+    width: auto;
+  }
+  .newList {
+    margin: 0;
+    padding: 0;
+  }
+  @media screen and (min-width: 500px) {
+    .leftSide {width: 400px; float: left;}
+    .rightSide {margin-left: 216px;}
+  } */
+  @media only screen and (min-width:450px) and (max-width:600px){
+    .body {
+        width: 60%;
+        clear: both;
+    }
+    
+    
+    }
